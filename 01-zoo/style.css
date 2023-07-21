@@ -303,7 +303,7 @@ nav button {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 30px;
+  column-gap: 40px;
 }
 /* .video{
   position: relative;
@@ -316,6 +316,7 @@ nav button {
 .play {
   position: absolute;
 }
+
 
 .animals.active {
   display: flex;
@@ -378,4 +379,61 @@ nav button {
   background: #ffffff;
   border-radius: 32px;
   padding: 24px 173px;
+}
+
+/* service section */
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 9.4%;
+  margin-bottom: 34px;
+}
+.service-section .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #348183;
+  margin-bottom: 20px;
+}
+.service-section h3 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #163636;
+  margin-bottom: 26px;
+  max-width: 390px;
+}
+.service-section h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #163636;
+  margin-bottom: 32px;
+  max-width: 470px;
+}
+.service-section .main-content {
+  padding-left: 28px;
+  border-left: 4px solid #348183;
+  max-width: 438px;
+  margin-bottom: 28px;
+}
+.service-section .expand {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(22, 54, 54, 0.5);
+}
+.service-section .expand span {
+  font-size: 16px;
+  line-height: 32px;
+  color: #163636;
+  margin-left: 10px;
+}
+
+/* map section */
+.map{
+  text-align: center;
 }
