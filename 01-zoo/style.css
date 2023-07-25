@@ -317,7 +317,6 @@ nav button {
   position: absolute;
 }
 
-
 .animals.active {
   display: flex;
   align-items: center;
@@ -385,7 +384,7 @@ nav button {
 .service-section {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-left: 9.4%;
   margin-bottom: 34px;
 }
@@ -434,6 +433,37 @@ nav button {
 }
 
 /* map section */
-.map{
+.map {
   text-align: center;
+  align-items: center;
+}
+.map .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #348183;
+  margin-bottom: 20px;
+}
+.map h3 {
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #163636;
+  margin-bottom: 10px;
+}
+.map p {
+  color: #163636;
+  height: 64px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.map img{
+  border-radius: 54px;
+  border: 10px #348183 solid
 }
